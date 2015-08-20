@@ -1,0 +1,23 @@
+<?php
+	$fruit ="kokosnoot";
+	$fruitLengte = strlen($fruit);
+	$haystack = $fruit;
+	$needle = "o";
+	$needlePosition = strpos($haystack,$needle);
+
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>opdracht extra-function</title>
+	</head>
+	
+	<body>
+		<p><?php $fruit ?>bevat <?php $fruitLengte?> karakters en de eerste <?php $needle ?> letter bevindt zich op positie <?php $needlePosition ?></p>
+		
+	</body>
+	
+
+
+</html>
